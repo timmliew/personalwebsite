@@ -42,7 +42,7 @@
 	padding-bottom: 20px;
 }
 
-.about h2, .contact h2, .projects h2, .projects h3 {
+.about h2, .contact h2, .projects h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 40px;
 }
@@ -64,13 +64,12 @@
 
 .contactcontainer {
 	padding: 40px;
-	/*margin-left: 8%; 
-	margin-right: 5%;*/
-	padding-bottom: 15%;
+	padding-bottom: 10%;
 }
 
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
     }
-  }
+}
+
